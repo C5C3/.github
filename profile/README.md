@@ -7,9 +7,9 @@ declarative infrastructure stack, one operator per OpenStack service projects th
 Deployments, Jobs, configuration, and Secrets, and a single `ControlPlane` resource ties them
 together into a complete control plane.
 
-Most of the work happens in **[forge](https://github.com/C5C3/forge)**, a Go workspace monorepo
+Most of the work happens in **[cobaltcore](https://github.com/C5C3/cobaltcore)**, a Go workspace monorepo
 holding the operators, container images, deployment manifests, and tests. The documentation is
-published at **[c5c3.github.io/forge](https://c5c3.github.io/forge/)**.
+published at **[c5c3.github.io/cobaltcore](https://c5c3.github.io/cobaltcore/)**.
 
 ## What is in place
 
@@ -31,17 +31,17 @@ published at **[c5c3.github.io/forge](https://c5c3.github.io/forge/)**.
 
 Nova, Neutron, and Cinder are not onboarded yet, and the hypervisor and storage clusters of the
 original design remain sketches. Planned work is tracked in
-[forge issues](https://github.com/C5C3/forge/issues).
+[cobaltcore issues](https://github.com/C5C3/cobaltcore/issues).
 
 ## Status
 
 The project is under active development. All CRDs are `v1alpha1`, and APIs, architecture, and
 deployment layout can still change in breaking ways between releases. The archived
 [C5C3](https://github.com/C5C3/C5C3) repository holds the original architecture sketch; where it
-and the implementation in forge differ, the implementation is authoritative.
+and the implementation in cobaltcore differ, the implementation is authoritative.
 
 ## Security
 
 Found a vulnerability? Please report it privately through GitHub Private Vulnerability Reporting
-rather than opening a public issue. See [SECURITY.md](https://github.com/C5C3/forge/blob/main/SECURITY.md)
+rather than opening a public issue. See [SECURITY.md](https://github.com/C5C3/cobaltcore/blob/main/SECURITY.md)
 for the reporting process, scope, and response expectations.
